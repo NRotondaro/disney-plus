@@ -11,5 +11,5 @@ export default NextAuth({
     }),
   ],
 
-  adapter: FirebaseAdapter(db)
+  adapter: FirebaseAdapter(db),
 })

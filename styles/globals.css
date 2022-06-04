@@ -18,4 +18,8 @@
   .span {
     @apply relative text-sm font-medium uppercase before:absolute before:inset-x-0 before:-bottom-1.5 before:h-0.5 before:origin-left before:scale-x-0 before:transform before:rounded-bl before:bg-secondary before:transition-all before:duration-200 group-hover:before:scale-x-100;
   }
+
+  .brand {
+    @apply relative flex h-32 w-52 sm:h-36 sm:w-64 border-[3px] border-secondary border-opacity-10 rounded-lg cursor-pointer shadow-xl hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300;
+  }
 }
