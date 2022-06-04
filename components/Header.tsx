@@ -5,10 +5,11 @@ import {
   SearchIcon,
   StarIcon,
 } from '@heroicons/react/solid'
+import {signIn} from 'next-auth/client'
 
 function Header() {
   return (
-    <div className="sticky top-0 z-50 flex h-16 items-center bg-[#040714] px-10 md:px-12">
+    <div className="sticky top-0 z-50 flex h-16 items-center bg-primary px-10 md:px-12">
       <Image
         src="/images/logo.svg"
         width={80}
@@ -41,7 +42,7 @@ function Header() {
           <span className="span">Series</span>
         </a>
       </div>
-      <button className="ml-auto rounded border px-4 py-1.5 font-medium uppercase tracking-wide transition duration-200 hover:bg-white hover:text-black">
+      <button className="hover:bg-white hover:text-black ml-auto rounded border px-4 py-1.5 font-medium uppercase tracking-wide transition duration-200" onClick={() => signIn()}>
         Login
       </button>
     </div>
