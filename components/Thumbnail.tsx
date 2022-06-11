@@ -11,11 +11,12 @@ export const Thumbnail = ({ results }: Props) => {
   const router = useRouter()
 
   return (
-    <div onClick={() => router.push(`/movie/${results.id}`)}>
+    <div
+      className="flex min-h-[170px] min-w-[250px] transform cursor-pointer overflow-hidden rounded-lg border-[3px] border-secondary border-opacity-10 shadow-xl transition duration-300 hover:scale-105 hover:border-opacity-80 hover:shadow-2xl md:min-h-[210px] md:min-w-[330px]"
+      onClick={() => router.push(`/movie/${results.id}`)}
+    >
       <Image
-        src={
-          `${BASE_URL}${results.backdrop_path || results.poster_path}`
-        }
+        src={`${BASE_URL}${results.backdrop_path || results.poster_path}`}
         width={330}
         height={210}
         objectFit="cover"
