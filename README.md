@@ -1,23 +1,56 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">
+  <img alt="logo-disney" title="Disney+" src="./public/logo.png" />
+</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">
+  <a href="#-techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to">How to</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-## Deploy your own
+<br>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+<p align="center">
+  <img alt="banner-disney" src="./public/banner.png" width="100%">
+</p>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## ✨ Techs
 
-## How to use
+This project is made using:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- [React](https://reactjs.org)
+- [NextJS](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [HeroIcons](https://heroicons.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [FirebaseV8](https://firebase.google.com/docs)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
+## 💻 About
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Disney+ clone the an American subscription video on-demand
+
+## 🚀 How to
+
+- Clone the repository
+- Install packages with `yarn` or `npm install`
+- Run `yarn dev` or `npm run dev`
+- Replace the environment variables on .env
+
+Now you can access [`localhost:3000`](http://localhost:3000)
+
+## Author
+
+👤 **Nikson Rotondaro**
+
+- Website: https://disney-plus-woad.vercel.app/
+- Twitter: [https:\/\/twitter.com\/NoskinR](https://twitter.com/NoskinR)
+- Github: [@NRotondaro](https://github.com/NRotondaro)
+- LinkedIn: [https:\/\/www.linkedin.com\/in\/nikson-rotondaro\/](https://www.linkedin.com/in/nikson-rotondaro/)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+---
