@@ -13,7 +13,11 @@ export const Thumbnail = ({ results }: Props) => {
   return (
     <div
       className="flex min-h-[170px] min-w-[250px] transform cursor-pointer overflow-hidden rounded-lg border-[3px] border-secondary border-opacity-10 shadow-xl transition duration-300 hover:scale-105 hover:border-opacity-80 hover:shadow-2xl md:min-h-[210px] md:min-w-[330px]"
-      onClick={() => router.push(`/movie/${results.id}`)}
+      onClick={
+        results.media_type === 'movie'
+          ? () => router.push(`/movie/${results.id}`)
+          : () => router.push(`/show/${results.id}`)
+      }
     >
       <Image
         src={`${BASE_URL}${results.backdrop_path || results.poster_path}`}
