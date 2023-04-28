@@ -2,9 +2,9 @@ import Image from 'next/image'
 import {
   HomeIcon,
   PlusIcon,
-  SearchIcon,
+  MagnifyingGlassIcon,
   StarIcon,
-} from '@heroicons/react/solid'
+} from '@heroicons/react/24/solid'
 import { getSession, signIn, signOut, useSession } from 'next-auth/client'
 import { useRouter } from 'next/router'
 
@@ -27,7 +27,8 @@ function Header() {
             <HomeIcon className="h-4" /> <span className="span">Home</span>
           </a>
           <a className="header-link group">
-            <SearchIcon className="h-4" /> <span className="span">Search</span>
+            <MagnifyingGlassIcon className="h-4" />{' '}
+            <span className="span">Search</span>
           </a>
           <a className="header-link group">
             <PlusIcon className="h-4" /> <span className="span">Watchlist</span>
